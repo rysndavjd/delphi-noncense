@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/03/06 09:02:18.000.318,=C:\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2025/03/06 09:02:38.000.159,C:\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit4.dfm=C:\Mac\Home\Documents\github\delphi-noncense\Q1\Act1-7\act4_code.dfm</Transaction>
+    <Transaction>2025/03/06 09:02:38.000.159,C:\Mac\Home\Documents\Embarcadero\Studio\Projects\Unit4.pas=C:\Mac\Home\Documents\github\delphi-noncense\Q1\Act1-7\act4_code.pas</Transaction>
+    <Transaction>2025/03/06 09:02:47.000.923,C:\Mac\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Mac\Home\Documents\github\delphi-noncense\Q1\Act1-7\act4.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
