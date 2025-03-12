@@ -11,58 +11,54 @@ object Form5: TForm5
   Font.Name = 'Segoe UI'
   Font.Style = []
   TextHeight = 32
-  object Label1: TLabel
-    Left = 320
-    Top = 328
-    Width = 69
+  object lblDays: TLabel
+    Left = 306
+    Top = 347
+    Width = 136
     Height = 32
-    Caption = 'Label1'
+    Caption = 'Days worked'
   end
-  object Label2: TLabel
-    Left = 808
-    Top = 328
-    Width = 69
+  object lblRatePerHour: TLabel
+    Left = 670
+    Top = 347
+    Width = 147
     Height = 32
-    Caption = 'Label2'
+    Caption = 'Rate Per Hour'
   end
-  object Button1: TButton
-    Left = 544
-    Top = 448
-    Width = 105
-    Height = 41
-    Caption = 'Button1'
+  object btnProcess: TButton
+    Left = 576
+    Top = 440
+    Width = 153
+    Height = 57
+    Caption = 'Process'
     TabOrder = 0
+    OnClick = btnProcessClick
   end
-  object RichEdit1: TRichEdit
-    Left = 624
-    Top = 672
-    Width = 185
-    Height = 89
+  object redOutput: TRichEdit
+    Left = 480
+    Top = 568
+    Width = 337
+    Height = 193
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -24
     Font.Name = 'Segoe UI'
     Font.Style = []
-    Lines.Strings = (
-      'RichEdit'
-      '1')
     ParentFont = False
     TabOrder = 1
   end
-  object Edit1: TEdit
+  object edtDays: TEdit
     Left = 448
     Top = 344
     Width = 121
     Height = 40
     TabOrder = 2
-    Text = 'Edit1'
   end
-  object Edit2: TEdit
-    Left = 896
+  object edtRatePerHour: TEdit
+    Left = 832
     Top = 344
     Width = 121
     Height = 40
     TabOrder = 3
-    Text = 'Edit2'
   end
 end

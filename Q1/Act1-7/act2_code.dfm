@@ -13,52 +13,53 @@ object Form2: TForm2
   Position = poDesigned
   TextHeight = 32
   object lblHeight: TLabel
-    Left = 556
-    Top = 336
-    Width = 271
+    Left = 655
+    Top = 403
+    Width = 163
     Height = 32
-    Caption = 'Enter the triangles height'
+    Caption = 'Triangle Height'
   end
   object lblBase: TLabel
-    Left = 127
-    Top = 336
-    Width = 251
+    Left = 222
+    Top = 400
+    Width = 140
     Height = 32
-    Caption = 'Enter the triangles base'
-  end
-  object edtBase: TEdit
-    Left = 384
-    Top = 333
-    Width = 145
-    Height = 40
-    TabOrder = 0
-  end
-  object edtHeight: TEdit
-    Left = 833
-    Top = 330
-    Width = 145
-    Height = 40
-    TabOrder = 1
+    Caption = 'Triangle Base'
   end
   object redOutput: TRichEdit
-    Left = 464
-    Top = 632
-    Width = 329
-    Height = 121
+    Left = 488
+    Top = 648
+    Width = 281
+    Height = 153
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -24
     Font.Name = 'Segoe UI'
     Font.Style = []
     ParentFont = False
-    TabOrder = 2
+    TabOrder = 0
   end
   object btnProcess: TButton
-    Left = 544
-    Top = 488
-    Width = 145
-    Height = 73
+    Left = 568
+    Top = 528
+    Width = 121
+    Height = 49
     Caption = 'Process'
+    TabOrder = 1
+    OnClick = btnProcessClick
+  end
+  object edtHeight: TEdit
+    Left = 824
+    Top = 397
+    Width = 121
+    Height = 40
+    TabOrder = 2
+  end
+  object edtBase: TEdit
+    Left = 368
+    Top = 400
+    Width = 121
+    Height = 40
     TabOrder = 3
   end
 end

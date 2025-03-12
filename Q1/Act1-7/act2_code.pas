@@ -8,12 +8,12 @@ uses
 
 type
   TForm2 = class(TForm)
-    lblHeight: TLabel;
-    lblBase: TLabel;
-    edtBase: TEdit;
-    edtHeight: TEdit;
     redOutput: TRichEdit;
     btnProcess: TButton;
+    edtHeight: TEdit;
+    edtBase: TEdit;
+    lblHeight: TLabel;
+    lblBase: TLabel;
     procedure btnProcessClick(Sender: TObject);
   private
     { Private declarations }
@@ -30,12 +30,12 @@ implementation
 
 procedure TForm2.btnProcessClick(Sender: TObject);
 var
-    rBase, rHeight, rArea: Real;
+    rHeight, rBase, rArea: Real;
 begin
-    rBase:=StrToFloat(edtBase.Text);
     rHeight:=StrToFloat(edtHeight.Text);
-    rArea:=(1/2*rBase)*rHeight;
-    redOutput.Lines.add(FloatToStr(rArea));
+    rBase:=StrToFloat(edtBase.Text);
+    rArea:=(rBase*0.5)*rHeight;
+    redOutput.Lines.Add(FloatToStr(rArea));
 end;
 
 end.

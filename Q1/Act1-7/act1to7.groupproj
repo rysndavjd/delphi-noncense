@@ -1,0 +1,108 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{4C43368B-B228-4AFC-899E-DA0D3548541A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="act1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="act2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="act3.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="act4.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="act5.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="act6.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="act7.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="act1">
+        <MSBuild Projects="act1.dproj"/>
+    </Target>
+    <Target Name="act1:Clean">
+        <MSBuild Projects="act1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="act1:Make">
+        <MSBuild Projects="act1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="act2">
+        <MSBuild Projects="act2.dproj"/>
+    </Target>
+    <Target Name="act2:Clean">
+        <MSBuild Projects="act2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="act2:Make">
+        <MSBuild Projects="act2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="act3">
+        <MSBuild Projects="act3.dproj"/>
+    </Target>
+    <Target Name="act3:Clean">
+        <MSBuild Projects="act3.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="act3:Make">
+        <MSBuild Projects="act3.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="act4">
+        <MSBuild Projects="act4.dproj"/>
+    </Target>
+    <Target Name="act4:Clean">
+        <MSBuild Projects="act4.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="act4:Make">
+        <MSBuild Projects="act4.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="act5">
+        <MSBuild Projects="act5.dproj"/>
+    </Target>
+    <Target Name="act5:Clean">
+        <MSBuild Projects="act5.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="act5:Make">
+        <MSBuild Projects="act5.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="act6">
+        <MSBuild Projects="act6.dproj"/>
+    </Target>
+    <Target Name="act6:Clean">
+        <MSBuild Projects="act6.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="act6:Make">
+        <MSBuild Projects="act6.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="act7">
+        <MSBuild Projects="act7.dproj"/>
+    </Target>
+    <Target Name="act7:Clean">
+        <MSBuild Projects="act7.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="act7:Make">
+        <MSBuild Projects="act7.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="act1;act2;act3;act4;act5;act6;act7"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="act1:Clean;act2:Clean;act3:Clean;act4:Clean;act5:Clean;act6:Clean;act7:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="act1:Make;act2:Make;act3:Make;act4:Make;act5:Make;act6:Make;act7:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
