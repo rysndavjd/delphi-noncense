@@ -1,0 +1,64 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 882
+  ClientWidth = 1248
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -24
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poDesigned
+  TextHeight = 32
+  object lblHeight: TLabel
+    Left = 556
+    Top = 336
+    Width = 271
+    Height = 32
+    Caption = 'Enter the triangles height'
+  end
+  object lblBase: TLabel
+    Left = 127
+    Top = 336
+    Width = 251
+    Height = 32
+    Caption = 'Enter the triangles base'
+  end
+  object edtBase: TEdit
+    Left = 384
+    Top = 333
+    Width = 145
+    Height = 40
+    TabOrder = 0
+  end
+  object edtHeight: TEdit
+    Left = 833
+    Top = 330
+    Width = 145
+    Height = 40
+    TabOrder = 1
+  end
+  object redOutput: TRichEdit
+    Left = 464
+    Top = 632
+    Width = 329
+    Height = 121
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btnProcess: TButton
+    Left = 544
+    Top = 488
+    Width = 145
+    Height = 73
+    Caption = 'Process'
+    TabOrder = 3
+  end
+end
