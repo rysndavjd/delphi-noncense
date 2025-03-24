@@ -30,17 +30,17 @@ implementation
 
 procedure TForm7.btnProcessClick(Sender: TObject);
 var
-    rarea, rperimeter, rwidth, rlength, rpricefence, rpricearea: real;
+    dArea, dPerimeter, dWidth, dLength, dPriceFence, dPriceArea: real;
 begin
-    rwidth:=strtofloat(edtwidth.text);
-    rlength:=strtofloat(edtlength.text);
-    rarea:=rwidth*rlength;
-    rperimeter:=(rwidth*2)+(rlength*2);
-    rpricefence:=rperimeter*120;
-    rpricearea:=rarea*55;
+    dWidth:=strtofloat(edtwidth.text);
+    dLength:=strtofloat(edtlength.text);
+    dArea:=dWidth*dLength;
+    dPerimeter:=(dWidth*2)+(dLength*2);
+    dPriceFence:=dPerimeter*120;
+    dPricearea:=dArea*55;
     redoutput.Lines.Clear;
-    redoutput.lines.Add('Cost fence area: '+floattostr(rpricefence));
-    redoutput.lines.Add('Cost to lay grass on area: '+floattostr(rpricearea));
+    redoutput.lines.Add('Cost fence area: '+floattostr(dPriceFence));
+    redoutput.lines.Add('Cost to lay grass on area: '+floattostr(dPriceArea));
 end;
 
 end.
