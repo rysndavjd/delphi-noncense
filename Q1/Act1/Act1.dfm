@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 882
+  ClientHeight = 1009
   ClientWidth = 1248
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -14,7 +14,7 @@ object Form1: TForm1
   object lblHeight: TLabel
     Left = 8
     Top = 255
-    Width = 173
+    Width = 158
     Height = 71
     Caption = 'Height'
     Font.Charset = DEFAULT_CHARSET
@@ -27,7 +27,7 @@ object Form1: TForm1
   object lblSurname: TLabel
     Left = 8
     Top = 178
-    Width = 213
+    Width = 207
     Height = 71
     Caption = 'Surname'
     Font.Charset = DEFAULT_CHARSET
@@ -47,8 +47,8 @@ object Form1: TForm1
   object lblAge: TLabel
     Left = 24
     Top = 348
-    Width = 113
-    Height = 75
+    Width = 93
+    Height = 71
     Caption = 'Age'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -70,11 +70,11 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
   end
-  object RichEdit1: TRichEdit
-    Left = -4
-    Top = 673
-    Width = 1244
-    Height = 201
+  object redOutput: TRichEdit
+    Left = 8
+    Top = 623
+    Width = 1232
+    Height = 362
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -24
@@ -88,10 +88,10 @@ object Form1: TForm1
     Top = 360
     Width = 121
     Height = 82
-    MaxValue = 0
-    MinValue = 0
+    MaxValue = 100
+    MinValue = 1
     TabOrder = 1
-    Value = 0
+    Value = 1
   end
   object rgbGender: TRadioGroup
     Left = 8
@@ -198,14 +198,14 @@ object Form1: TForm1
     Top = 453
     Width = 121
     Height = 82
-    MaxValue = 0
+    MaxValue = 365
     MinValue = 0
     TabOrder = 9
     Value = 0
   end
   object btnProcess: TButton
     Left = 504
-    Top = 592
+    Top = 552
     Width = 233
     Height = 65
     Caption = 'Process'
