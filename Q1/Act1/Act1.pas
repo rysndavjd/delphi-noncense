@@ -63,7 +63,8 @@ begin
         prefect:='yes'
     else
         prefect:='no';
-    redoutput.lines.Add(name+' '+surname);
+    redoutput.lines.Add('Name: ' +name+' '+surname);
+    redoutput.lines.Add('Gender' +gender);
     redoutput.lines.Add('Age: '+age);
     redoutput.lines.Add('Height: '+height);
     redoutput.lines.Add('Grade: '+grade);

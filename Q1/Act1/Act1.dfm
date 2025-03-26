@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 1009
+  ClientHeight = 957
   ClientWidth = 1248
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -72,12 +72,12 @@ object Form1: TForm1
   end
   object redOutput: TRichEdit
     Left = 8
-    Top = 623
+    Top = 591
     Width = 1232
-    Height = 362
+    Height = 330
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -24
+    Font.Height = -21
     Font.Name = 'Segoe UI'
     Font.Style = []
     ParentFont = False
@@ -113,7 +113,7 @@ object Form1: TForm1
   end
   object cmdGrade: TComboBox
     Tag = -1
-    Left = 296
+    Left = 271
     Top = 467
     Width = 201
     Height = 62
@@ -124,7 +124,7 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 3
-    Text = 'Grade'
+    Text = 'Grade 12'
     Items.Strings = (
       'Grade 12'
       'Grade 11'
@@ -147,8 +147,8 @@ object Form1: TForm1
     TabOrder = 4
   end
   object chbPrefect: TCheckBox
-    Left = 968
-    Top = 560
+    Left = 776
+    Top = 453
     Width = 201
     Height = 57
     Caption = 'Prefect'
@@ -204,8 +204,8 @@ object Form1: TForm1
     Value = 0
   end
   object btnProcess: TButton
-    Left = 504
-    Top = 552
+    Left = 503
+    Top = 496
     Width = 233
     Height = 65
     Caption = 'Process'
